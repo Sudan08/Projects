@@ -1,0 +1,60 @@
+*{
+
+    text-align: center;
+}
+body{
+   background-image:url("img/1.jpg");
+
+}
+.heading{
+    font-family: 'Zodiak', serif;
+    font-weight: 900;
+    font-size: 4rem;
+    padding: 2rem;
+    margin:0.5rem;
+    color: white;
+}
+.btn1{
+    height: 2rem;
+    width: 2rem;
+    padding:3rem;
+    margin:1.5rem;
+    transform: rotate(45deg);
+    transition: 1s;
+}
+.btn1:hover{
+    border: 5px solid white;
+    padding: 3.5rem;
+    transition: 1s;
+    margin:2rem;
+
+}
+.buttons{
+    margin-top: 7rem;
+}
+.letters{
+    transform: rotate(-45deg);
+    position:absolute;
+    background-color: transparent;
+    top:1.6rem;
+    bottom: 1.4rem;
+    left: 1.4rem;
+    right:1.4rem;
+    color: White;
+    font-size: 1.5rem;
+    font-family:'Anton', sans-serif;
+}
+.letters:hover{
+    background-color: transparent;
+
+}
+footer{
+    margin-top: 17%;
+}
+
+.animation{
+    visibility: visible;
+    box-shadow: 0 0 3px 4px;
+    opacity: 0.5;
+}
+

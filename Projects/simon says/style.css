@@ -1,0 +1,49 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.grid_container{
+  
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+ 
+    margin: 3rem 30rem;
+    
+
+}
+.griditem{
+    background-color: white;
+    padding: 5rem;
+    border:3px solid black;
+    border-radius: 5% ;
+    border-collapse: separate;
+    margin: 0.5rem;
+  
+}
+button{
+    background-color: white;
+
+    padding: 1.5rem 4rem;
+    margin:2rem;
+    font-size: 1.5rem;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    transition: 1s;
+    border-radius: 10%;
+    
+}
+button:hover{
+    border-left:white;
+    border-right:white ;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    transition: 1s;
+}
+.background{
+    background-color: black;
+}
+  
+

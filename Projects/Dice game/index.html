@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dice Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+        </style>
+ 
+</head>
+<body>
+    <header>
+        <h1>The Dice Game</h1>
+    </header>
+    <div class="result">Result</div>
+    <div class="flex-container">
+    <div>
+        <p>Player 1</p>
+       <img  alt="1" class="img1" src="diceimg/1.png">
+    </div>
+    <div>
+       <p>Player 2</p>
+        <img  src="diceimg/2.png" alt="2" class="img2">
+    </div>
+    </div>
+    <div>
+        <button onclick="roll()" class="btn btn-outline-dark btn-lg">Roll the dices</button>
+    </div>
+
+    <div class="animate"></div>
+    <footer>
+    Copywrite RageXfury site
+    </footer>
+        
+  
+</body>
+<script src="index.js"></script>
+</html>

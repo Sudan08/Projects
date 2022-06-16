@@ -1,0 +1,184 @@
+body{
+    font-family: 'Chillax', sans-serif;
+
+}
+#title{
+    background-color:#FAA307;
+    color:aliceblue;
+
+    
+}
+.pizza{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width:100%;
+    height:100%;
+    
+
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:4.5rem;
+    
+
+}
+.container-fluid{
+    padding:3% 10%;
+}
+
+.navbar-brand{
+    font-family: 'Cormorant', serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.navbar{
+    padding-bottom: 2rem;
+}
+.nav-item{
+    padding:15px;
+ 
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.order-button{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+h3{
+    margin-top: 1.5rem;
+    font-size:2rem;
+}
+.line1{
+    border:0px 0px 3px 0px;
+    height:100%;
+    width: 20rem;
+    border-style: solid;
+    color: black;
+    margin:auto;
+    margin-top:2rem;
+}
+.MenuH{
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+.menu-box{
+    padding: 3rem;
+    text-align: center;
+   
+ 
+}
+h3{
+    font-family: 'Chillax', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    color:#03071E;
+}
+.icon{
+    color:#E36414;
+}
+.icon:hover{
+   color:#fc9454;
+}
+#Menu{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/* aboutus */
+
+#About-us{
+ background-color: #FAA307;
+ text-align: center;
+}
+.abt{
+    text-align: center;
+    margin-bottom: 3rem;
+    padding:2rem 10rem;
+}
+.a{
+    padding-top:2rem;
+}
+h2{
+    font-family: 'Chillax', sans-serif;
+    padding:1.5rem 0rem;
+    font-size: 6rem
+
+}
+p{
+    padding:1.5rem 0rem;
+    font-size:2rem;
+    font-family: 'Chillax', sans-serif;
+    font-weight: bolder;
+}
+.jesus{
+    border-radius: 100%;
+    width:9rem;
+    height:9rem;
+}
+
+/* Our members */
+#Ourmembers{
+    text-align: center;
+}
+
+
+/* Reviews */
+
+#Reviews{
+    text-align: center;
+    background-color: #FAA307;
+
+}
+.carousel-item{
+    height:32rem;
+    background-color: #FAA307;
+    color:white;
+    position: relative;
+}
+.container{
+    position:absolute;
+    bottom: 0;
+    top:0;
+    right: 0;
+    left: 0;
+    padding-top: 5rem;
+    
+}
+
+.card-img{
+width: 100%;
+  height: auto;
+}
+
+.pic{
+    padding:3rem 5rem;
+}
+
+/* Footer */
+
+#footer{
+   text-align: center;
+    background-color:aliceblue ;
+}
+
+.social{
+    padding:1.5rem;
+ 
+    background-color:aliceblue ;
+    text-align: center;
+}
+.cop{
+   font-size: 1rem;
+
+}
+.icon1{
+    color:black;
+    padding:1rem;
+}
+.icon1:hover{
+    color: white;
+    background-color: black;
+    size:3rem;
+}
